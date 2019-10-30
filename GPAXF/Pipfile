@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.2.3"
+pymysql = "*"
+django-debug-toolbar = "*"
+pillow = "*"
+django-redis = "*"
+python-alipay-sdk = "*"
+
+[requires]
+python_version = "3.7"
